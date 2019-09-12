@@ -5,13 +5,15 @@ and open the template in the editor.
 */
 /* 
     Created on : Aug 2, 2019, 2:30:15 PM
-    Author     : urk17cs231
+    Author     : urk17cs239
 */
 *{
     margin:0;
    
 }
-
+body{
+    background-color:gray;
+}
 header{
    
     text-align:center;
@@ -24,13 +26,13 @@ header{
     text-shadow: 3px 5px black;
 }
 .head{
-     background-color:#293462;
+     background-color:#407088;
 }
 .navbar{
     text-align: center;
 }
 nav{
-    background-color:#f0dab1;
+    background-color:#b6ffea;
     padding:0.7%
 }
 ul{
@@ -43,11 +45,10 @@ ul a{
    height: 100%;
 }
 ul a:hover{
-   
-    background-color: #293462;
+    opacity:0.4;
+    background-color: #407088;
     color:white;
     transition:0.5s;
-    border-radius: 10px;
 }
 li{
     
@@ -55,6 +56,7 @@ li{
     padding: 100px;
 }
 .banner{
+    margin-top:2%;
     background-image:url("bb.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -62,52 +64,53 @@ li{
     
 }
 .parainbanner{
-    position:relative;
     font-size: 1.5rem;
     font-family: 'Ariel';
-    padding:20px;
-    left:80px;
-    width:1460px;
-    height:300px;
+    padding: 2.5% 10%;
+   
     background-color:rgba(0,0,0,0.5);
     color:white;
     
 
 }
 .banner-para{
-    
+    padding:2%;
 }
 .tb div{
-  margin:0.5%;
- display: inline-block;  
-
+  margin:2%;
+ display: inline-block;
+}
+.tb{
+    margin:2% 0;
+    background-color:#407088;
+    text-align: bottom;
 }
 .tb1{
+    display:inline-block;
     background-image: url('tb1.jpg');
-    width: 400px;
+    width: 480px;
     height:300px;
     background-position: center center;
     text-align: center; 
 }
 .tb2{
-    
+    display:inline-block;
     background-image: url('tb2.jpg');
-     width: 400px;
+    width: 480px;
     height:300px;
     background-position: center center;
     text-align: center; 
 }
 .tb3{
+    display:inline-block;
     background-image: url('tb3.jpg');
-     width: 400px;
+    width: 480px;
     height:300px;
     background-position: center center;
-    text-align: center; 
+    text-align: center;
 }
 .tpara{
-    position:relative;
-    top:268px;
-    padding:5px;
+    padding:5%;
     background-color: rgba(0,0,0,0.8);
     color:white;
 }
